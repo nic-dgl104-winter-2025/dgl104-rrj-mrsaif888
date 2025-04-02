@@ -81,3 +81,60 @@ As a user, I want to download songs for offline listening, so I can enjoy music 
 * decided the language 
 * dividing task for the contribution in the project
   
+# Week 9
+
+## Design Patterns – Class Notes
+### What Are Design Patterns?
+* General solutions to common software design problems
+
+* Act as templates or blueprints for writing clean, reusable code
+
+* Mostly used in Object-Oriented Programming (OOP)
+
+### Two Core Principles
+* Program to an interface, not an implementation
+→ Focus on what an object can do, not how it does it
+
+* Favor composition over inheritance
+→ Combine simple objects to build complex ones instead of relying on class hierarchies
+
+### Types of Design Patterns
+#### Structural Patterns
+* Help organize classes and objects into larger structures
+
+* Focus on how classes are composed
+
+ * Make code more scalable and maintainable
+
+#### Behavioral Patterns
+* Help manage communication between objects
+
+* Define how objects interact and respond to events
+
+* Example: Observer Pattern
+  
+  ### Pattern Examples
+
+  #### Observer Pattern
+* One object (Subject) notifies multiple Observers when its state changes
+
+* Used for event handling and real-time updates
+
+ * Use Case: Auction system where bidders (observers) get updates from auctioneer (subject)
+
+#### Singleton Pattern
+* Ensures only one instance of a class is created
+
+* Commonly used for shared resources (like database connections)
+
+* Key Features:
+
+Private constructor
+
+Static instance
+
+Public getInstance() method
+
+* Use Case: Database Connection Manager
+
+
